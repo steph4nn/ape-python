@@ -7,10 +7,10 @@ print('''Selecione uma opção:
 opcao = input('Digite sua opção: ').upper()
 
 if opcao == 'BINARIO':
-    print(f'{bin(num)}')
+    print(f'{bin(num)[2::]}')
 elif opcao == 'DECIMAL':
     print(f'{int(num)}')
 elif opcao == 'HEXADECIMAL':
-    print(f'{hex(num)}')
+    print(f'{hex(num)[2::]}')
 else:
     print('Escolha uma opção válida.')
