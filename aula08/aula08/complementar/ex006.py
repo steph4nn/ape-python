@@ -7,5 +7,4 @@ while senha != tentativa:
     else:
         print('Acesso negado!')
         break
-else:
-    print('Você tem o acesso.')
+print('Tente novamente mais tarde.')

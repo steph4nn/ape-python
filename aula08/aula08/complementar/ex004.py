@@ -1,5 +1,5 @@
 massa = float(input('Digite a quantidade de gramas: '))
-cont = 0
+cont = 50
 
 
 while massa >= 0.5:
