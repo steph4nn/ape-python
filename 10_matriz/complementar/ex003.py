@@ -45,7 +45,7 @@ for linha in range(ORDEM):
             soma_secundaria += matriz[linha][coluna]
 print(f'A soma dos elementos da diagonal secundária foi: {soma_secundaria}')
 
-
+ 
 #SOMA DE TODOS OS ELEMENTOS
 soma_geral = 0
 for linha in range(ORDEM):
