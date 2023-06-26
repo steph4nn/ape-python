@@ -1,7 +1,7 @@
 import os
 
 nome = input()
-file = f"./aula14/ex01/nom{nome}.txt"
+file = f"./aula14/ex01/{nome}.txt"
 
 print(file)
 if os.path.exists(file):
